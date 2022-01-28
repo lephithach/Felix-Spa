@@ -1,0 +1,58 @@
+.section-contact {
+  padding: $paddingSection;
+  background-color: $secondaryColor;
+
+  .card {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+
+    i {
+      color: $primaryColor;
+      font-size: 3.3rem;
+    }
+
+    .card-title {
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+    }
+
+    .card-text {
+      font-weight: 400;
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-contact {
+    padding: 2rem 0;
+    background-color: $secondaryColor;
+
+    .card {
+      background-color: transparent;
+      border: none;
+      text-align: center;
+      margin: 0.5rem;
+
+      i {
+        color: $primaryColor;
+        font-size: 3.3rem;
+      }
+
+      .card-title {
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+
+      .card-text {
+        font-weight: 300;
+        font-size: 0.9rem;
+        line-height: 1.7;
+      }
+    }
+  }
+}

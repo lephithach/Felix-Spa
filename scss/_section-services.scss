@@ -1,0 +1,75 @@
+.section-services {
+  padding: $paddingSection;
+
+  .services-title {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    text-align: center;
+  }
+
+  .services-description {
+    font-weight: 300;
+    font-size: 1.1rem;
+  }
+
+  .line-section {
+    margin: 3rem 0;
+  }
+
+  .services-card {
+    background-color: transparent;
+    border: none;
+
+    img {
+      width: 100%;
+      transition: all 0.35s ease-in-out;
+
+      &:hover {
+        transform: translateY(-10px);
+        opacity: 0.8;
+      }
+    }
+
+    .card-title {
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      margin-top: 0.5rem;
+      font-size: 1.4rem;
+    }
+
+    .card-description {
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+  }
+
+  .services-button {
+    @include btnSeeMore;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-services {
+    padding: 2rem 0;
+    text-align: center;
+
+    .services-title {
+      font-size: 2rem;
+    }
+
+    .services-description {
+      font-size: 1rem;
+    }
+
+    .line-section {
+      margin: 1rem 0;
+    }
+
+    .services-card {
+      margin-top: 1rem;
+    }
+  }
+}

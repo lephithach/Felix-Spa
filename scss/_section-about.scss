@@ -1,0 +1,85 @@
+.section-about {
+  padding: $paddingSection;
+
+  .img-about {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    -o-object-fit: cover;
+    -o-object-position: cover;
+  }
+
+  .about-title {
+    font-family: "Playfair Display", serif;
+    font-size: 2.7rem;
+    font-weight: 800;
+    position: relative;
+    padding-bottom: 1.2rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 20%;
+      height: 4px;
+      bottom: 0;
+      left: 0;
+      background-color: $primaryColor;
+    }
+  }
+
+  .about-description {
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+
+  .about-content {
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-about {
+    padding: 1rem 0;
+    padding-top: 2rem;
+    border-top: 1px solid rgba($color: #000000, $alpha: 0.2);
+    text-align: center;
+
+    .img-about {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: center;
+      -o-object-fit: cover;
+      -o-object-position: cover;
+      margin-bottom: 1rem;
+    }
+
+    .about-title {
+      font-size: 2rem;
+      padding-bottom: 1.2rem;
+      margin-top: 1rem;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 20%;
+        height: 4px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $primaryColor;
+      }
+    }
+
+    .about-description {
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+
+    .about-content {
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+  }
+}

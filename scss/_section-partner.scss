@@ -1,0 +1,109 @@
+.section-partner {
+  padding: $paddingSection;
+
+  .partner-slider {
+    .slider-img {
+      list-style-type: none;
+    }
+  }
+
+  .line-section {
+    margin: 4rem 0;
+  }
+
+  .partner-container {
+    text-align: center;
+
+    .partner-title {
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: 2.7rem;
+    }
+
+    i.bi.bi-quote {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem auto;
+      width: 50px;
+      height: 50px;
+      font-size: 2.2rem;
+      border-radius: 100%;
+      background-color: $primaryColor;
+      color: #fff;
+    }
+
+    .partner-img img {
+      border-radius: 100%;
+    }
+
+    .partner-name {
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+
+    .partner-position {
+      text-transform: uppercase;
+      color: $primaryColor;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-partner {
+    padding: 1rem 0;
+
+    .line-section {
+      margin: 4rem 0;
+    }
+
+    .partner-container {
+      text-align: center;
+
+      .partner-title {
+        font-size: 2rem;
+      }
+
+      i.bi.bi-quote {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem auto;
+        width: 50px;
+        height: 50px;
+        font-size: 2.2rem;
+        border-radius: 100%;
+        background-color: $primaryColor;
+        color: #fff;
+      }
+
+      .partner-content {
+        font-size: 0.9rem;
+      }
+
+      .partner-img img {
+        border-radius: 100%;
+      }
+
+      .partner-name {
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+      }
+
+      .partner-position {
+        text-transform: uppercase;
+        color: $primaryColor;
+        font-weight: 700;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
