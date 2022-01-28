@@ -485,9 +485,14 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url("../images/spa-10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .section-video .video-container {
     height: 400px;
+    text-shadow: 1px 1px 5px #000;
   }
   .section-video .video-container .video-title {
     font-weight: 700;
@@ -551,7 +556,7 @@ a:hover {
 
 @media screen and (max-width: 992px) {
   .section-partner {
-    padding: 1rem 0;
+    padding: 2rem 0;
   }
   .section-partner .line-section {
     margin: 4rem 0;
